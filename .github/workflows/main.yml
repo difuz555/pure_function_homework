@@ -10,6 +10,8 @@ jobs:
         run: npm install
       - name: Run tests
         run: npm test
+      - name: Run eslint
+        run: npm run lint
 
   deploy:
     needs: test
