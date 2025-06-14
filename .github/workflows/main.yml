@@ -1,4 +1,4 @@
-name: CI Pipeline
+name: pure_function_homework
 on: [push]
 
 jobs:
