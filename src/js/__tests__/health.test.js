@@ -1,4 +1,4 @@
-import healthIndicator from '../health.js';
+import healthIndicator from '../app.js';
 
 const dataList = [
     [{name: 'Wizard', health: 90}, 'healthy'],

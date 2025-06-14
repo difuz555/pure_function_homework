@@ -1,9 +1,11 @@
-// TODO: write your code here
-import sum from './basic';
-import healthIndicator from './health.js';
-
-console.log('worked');
-
-console.log(sum([1, 2]));
-
-console.log(healthIndicator({name: 'Knight', health: 100}));
+export default function healthIndicator(character) {
+    if (character.health > 50) {
+        return 'healthy';
+    }
+    else if (character.health < 15) {
+        return 'critical';
+    }
+    else {
+        return 'wounded';
+    }
+}
